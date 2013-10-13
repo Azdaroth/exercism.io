@@ -3,22 +3,18 @@ class Anagram(object):
     def __init__(self, word):
         self.word = word
 
-    def match(self, anagram_candidates):
-        return filter(lambda candidate: FormattedWord(candidate).is_anagram_of(self.word), 
-            anagram_candidates)
+    def match(self, candidates):
+        formatted_word = FormattedWord(self.word)
+        return [candidate for candidate in candidates 
+            if FormattedWord(candidate).is_anagram_of(formatted_word)]
 
 
 class FormattedWord(object):
   
     def __init__(self, word):
-        self.word = self.standarize(word)
+        self._lower = word.lower();
+        self._sorted = "".join(sorted(self._lower))
 
     def is_anagram_of(self, other_word):
-        other_word = self.standarize(other_word)
-        return self.word != other_word and self.sort(self.word) == self.sort(other_word)
+        return self._lower!= other_word._lower and self._sorted == other_word._sorted
 
-    def standarize(self, string):
-        return string.lower()
-
-    def sort(self, string):
-        return "".join(sorted(string))
