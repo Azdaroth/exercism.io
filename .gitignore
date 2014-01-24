@@ -1,4 +1,10 @@
-/haskell/*
-/elixir/*
 /clojure/*
+/coffeescript/*
+/elixir/*
+/go/*
+/haskell/*
+/objective-c/
+/ocaml/
+/perl5/
+/scala
 .DS_Store
