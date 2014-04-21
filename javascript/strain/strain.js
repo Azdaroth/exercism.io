@@ -1,5 +1,7 @@
 (function() {
 
+  'use strict';
+
   var Collection = {};
 
   Collection.keep = function(collection, callback) {
