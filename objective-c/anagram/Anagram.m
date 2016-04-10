@@ -12,11 +12,9 @@
 - (Anagram *)initWithString:(NSString *)word {
     self = [super init];
     if (self) {
-        self.word = [[Word alloc] initWithString:word];
-        return self;
-    } else {
-        return nil;
+        _word = [[Word alloc] initWithString:word];
     }
+    return self;
 }
 
 - (NSArray *)match:(NSArray *)candidates {
@@ -34,6 +32,9 @@
 
 @end
 
+
+#import "Word.h"
+
 @interface Word ()
 
 @property (nonatomic, strong) NSString *originalWord;
@@ -46,12 +47,11 @@
 - (Word *)initWithString:(NSString *)string {
     self = [super init];
     if (self) {
-        self.originalWord = string;
-        self.sortedOriginalWord = [self sortAndNormalizeCharacters:string];
+        _originalWord = string;
+        _sortedOriginalWord = [self sortAndNormalizeCharacters:string];
         return self;
-    } else {
-        return nil;
     }
+    return self;
 }
 
 - (BOOL)isAnagramOfWord:(NSString *)candidate {

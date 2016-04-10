@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/6c98d6766e72d5575f96c9479d1c1d3b865c6e25/junit-4.10-sources.jar" kind="lib" path="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/org.easytesting/fest-assert-core/2.0M10/16321e3a0a61af0505a0d3726c6c75d0a44e34e8/fest-assert-core-2.0M10-sources.jar" kind="lib" path="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/org.easytesting/fest-assert-core/2.0M10/cb7c91cf614901928ae405f19d9bcdedf82781db/fest-assert-core-2.0M10.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0.1/2477d012cd5379f9696e0d9d3ccc62ad13a09ca4/guava-16.0.1-sources.jar" kind="lib" path="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0.1/5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5/guava-16.0.1.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar" kind="lib" path="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/org.easytesting/fest-util/1.2.5/51c853a963c33e146d5b4461d28e740a42483224/fest-util-1.2.5-sources.jar" kind="lib" path="/Users/azdaroth/.gradle/caches/modules-2/files-2.1/org.easytesting/fest-util/1.2.5/c4a8d7305b23b8d043be12c979813b096df11f44/fest-util-1.2.5.jar" exported="true"/>
+</classpath>
