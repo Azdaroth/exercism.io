@@ -10,4 +10,14 @@
 /perl5/*
 /scala/*
 /swift/*
+/ecmascript/*
+/elm/*
+/lfe/*
+/lisp/*
+/elisp/*
+/php/*
+/plsql/*
+/racket/*
+/rust/*
+/scheme/*
 .DS_Store
